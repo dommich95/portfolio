@@ -72,7 +72,7 @@ export default function Page() {
                 Dominik Michel
               </Text>
               <Text mb="2" align="left" size="9" weight="bold">
-                I&apos;m a Frontend Developer
+                I&apos;m a Frontend Developer,
               </Text>
               <Text align="right" size="8" weight="bold">
                 and I hope to please your eyes with what you see!
