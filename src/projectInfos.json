@@ -11,7 +11,7 @@
     {
       "name": "Ticket-System House Down Under",
       "description": "For the House Down Under attraction in Australia, we developed and integrated a ticket system directly into their website. Users can conveniently purchase tickets online, and the system generates a QR code that is sent to the user's email. This QR code can then be scanned and validated upon entry to the attraction. The technologies employed for this project include React for the front end, Material-UI for the user interface, Firebase as the backend and Stripe for the payments.",
-      "image": "//Images/qr-code.jpg",
+      "image": "/Images/qr-code.jpg",
       "techStack": ["React", "Material-UI", "CSS", "Firebase", "Stripe"],
       "web": "https://housedownunder.com.au/booking/",
       "code": ""
