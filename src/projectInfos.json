@@ -2,22 +2,22 @@
   "projects": [
     {
       "name": "xCurator",
-      "description": "of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
-      "image": "/images/qr-code.jpg",
+      "description": "xCurator is a web application designed for two prominent museums: the Badisches Landesmuseum in Karlsruhe and Allard Pierson in Amsterdam. The database integrates objects from both museums, allowing users to explore a diverse range of museum artifacts. Users can filter objects based on various criteria, add them to their favorites, and compile them into personalized stories, akin to creating a playlist on Spotify.These stories can be kept private or shared publicly, allowing others to view and appreciate them. The project utilized a technology stack including Next.js, 3pc-layoutcomponents, Radix UI, GraphQL, Gateway, Spring, Python, Keycloak, among other tools and frameworks.",
+      "image": "/images/xcurator-home.png",
       "techStack": ["Next", "GraphQl", "Radix-UI", "CSS"],
-      "link": "https://housedownunder.com.au/booking/"
+      "link": "https://xcurator.landesmuseum.de"
     },
     {
       "name": "Ticket-System House Down Under",
-      "description": "of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+      "description": "For the House Down Under attraction in Australia, we developed and integrated a ticket system directly into their website. Users can conveniently purchase tickets online, and the system generates a QR code that is sent to the user's email. This QR code can then be scanned and validated upon entry to the attraction. The technologies employed for this project include React for the front end, Material-UI for the user interface, Firebase as the backend and Stripe for the payments.",
       "image": "/images/qr-code.jpg",
       "techStack": ["React", "Material-UI", "CSS", "Firebase", "Stripe"],
       "link": "https://housedownunder.com.au/booking/"
     },
     {
       "name": "Marketplace",
-      "description": "of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
-      "image": "/images/qr-code.jpg",
+      "description": "As a fun side project to learn React Native, I created a marketplace where users can post items for sale and search for things they want to buy. In this project, I didn't integrate a backend; the primary focus was on developing the user interface and gaining hands-on experience with React Native and Expo.",
+      "image": "/images/marketplace.png",
       "techStack": ["React Native", "Expo", "CSS"]
     },
 

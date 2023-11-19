@@ -33,18 +33,25 @@ export default function About() {
       >
         <Box>
           <Text size="5">
-            I believe we can create a better world thanks to technologies. I
-            want to make a difference by building platforms that will empower
-            people and make businesses successful tomorrow. Thanks to my “start
-            anywhere, go everywhere” approach and multicultural background I’m
-            able to build high-impact software using new technologies. After 8
-            years of working as a pipe fitter and welder, I have decided to face
-            a new challenge that would align with my values, and involve new
-            ways of thinking and a life-long learning process. Hard work and
-            determination are key aspects in defining who I am. I solve problems
-            with an entrepreneurial mindset. I am eager to hear about potential
-            career opportunities, so I would be pleased to chat about job
-            openings in the software development sphere.
+            I believe in the transformative power of technology to create a
+            better world. My goal is to contribute to this vision by building
+            platforms that empower individuals and drive the success of
+            businesses in the future. With my start anywhere, go everywhere
+            approach and a multicultural background, I have the ability to craft
+            high-impact software solutions using cutting-edge technologies.
+            <br style={{ marginBottom: "15px" }} />
+            After spending 8 years working as a pipe fitter and welder, I
+            decided to embark on a new challenge that aligns with my values and
+            involves innovative thinking and continuous learning. My journey
+            into software development has been driven by hard work,
+            determination, and an entrepreneurial mindset.
+            <br style={{ marginBottom: "15px" }} />
+            With 1 year of experience as a frontend developer, I bring a fresh
+            perspective and a passion for solving problems through code. I am
+            actively seeking career opportunities in the software development
+            sphere and would be delighted to discuss potential openings.
+            Let&apos;s connect and explore how I can contribute to your team and
+            make a meaningful impact.
           </Text>
         </Box>
         <Flex
