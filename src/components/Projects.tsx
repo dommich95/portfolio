@@ -4,8 +4,13 @@ import styled from "styled-components";
 import "@radix-ui/themes/styles.css";
 import Data from "../projectInfos.json";
 import Image from "next/image";
-import { ChevronUpIcon, ChevronDownIcon } from "@radix-ui/react-icons";
+import {
+  ChevronUpIcon,
+  ChevronDownIcon,
+  ExternalLinkIcon,
+} from "@radix-ui/react-icons";
 import { InView } from "react-intersection-observer";
+import Link from "next/link";
 
 export default function Projects() {
   const [selectedProject, setSelectedProject] = useState(0);
@@ -42,8 +47,9 @@ export default function Projects() {
                 <Box
                   style={{
                     flex: "0 0 100%",
-                    minHeight: "100vh",
+                    minHeight: "100%",
                     zIndex: "2",
+                    paddingBottom: "30px",
                   }}
                 >
                   <Box
@@ -102,6 +108,36 @@ export default function Projects() {
                           )
                         )}
                       </Grid>
+                      <Flex
+                        justify="center"
+                        gap="8"
+                        style={{ marginTop: "70px", paddingBottom: "50px" }}
+                      >
+                        {Data.projects[selectedProject].web ? (
+                          <Box>
+                            <StyledLink
+                              as="a"
+                              href={`${Data.projects[selectedProject].web}`}
+                              target="_blank"
+                            >
+                              <Text>Website</Text>
+                              <ExternalLinkIcon />
+                            </StyledLink>
+                          </Box>
+                        ) : null}
+                        {Data.projects[selectedProject].code ? (
+                          <Box>
+                            <StyledLink
+                              href={`${Data.projects[selectedProject].code}`}
+                              target="_blank"
+                              as="a"
+                            >
+                              <Text>Code</Text>
+                              <ExternalLinkIcon />
+                            </StyledLink>
+                          </Box>
+                        ) : null}
+                      </Flex>
                     </Box>
                   </Box>
                 </Box>
@@ -236,21 +272,19 @@ const MobileOptimizedImage = styled(Image)`
 const TextFlexMain = styled(Flex)`
     position: relative;
     top: -100vh;
-    left: 0;
-    width: 100%;
+    width: 100vw;
     min-height: 100vh;
     padding-top: 30px;
-    padding-left: 10px;
-    padding-right: 10px;
     background-color: rgba(2, 6, 23, 0.6);
 
     @media (min-width: 768px) {
       position: unset;
+      grid-row: 1;
       grid-column: 1 / 2;
       width: 400px;
       margin: 0 auto;
       min-height: 100vh;
-      height: '100%'
+      min-height: '100vh'
 `;
 
 const StyledButtonBox = styled(Box)`
@@ -274,4 +308,21 @@ const ProjectButtons = styled(Button)`
   display: flex;
   align-items: center;
   justify-content: center;
+`;
+
+const StyledLink = styled(Link)`
+  all: unset;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 20px;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
+  &:hover {
+    cursor: pointer;
+  }
 `;

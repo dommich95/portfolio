@@ -5,20 +5,23 @@
       "description": "xCurator is a web application designed for two prominent museums: the Badisches Landesmuseum in Karlsruhe and Allard Pierson in Amsterdam. The database integrates objects from both museums, allowing users to explore a diverse range of museum artifacts. Users can filter objects based on various criteria, add them to their favorites, and compile them into personalized stories, akin to creating a playlist on Spotify.These stories can be kept private or shared publicly, allowing others to view and appreciate them. The project utilized a technology stack including Next.js, 3pc-layoutcomponents, Radix UI, GraphQL, Gateway, Spring, Python, Keycloak, among other tools and frameworks.",
       "image": "/images/xcurator-home.png",
       "techStack": ["Next", "GraphQl", "Radix-UI", "CSS"],
-      "link": "https://xcurator.landesmuseum.de"
+      "web": "https://xcurator.landesmuseum.de",
+      "code": ""
     },
     {
       "name": "Ticket-System House Down Under",
       "description": "For the House Down Under attraction in Australia, we developed and integrated a ticket system directly into their website. Users can conveniently purchase tickets online, and the system generates a QR code that is sent to the user's email. This QR code can then be scanned and validated upon entry to the attraction. The technologies employed for this project include React for the front end, Material-UI for the user interface, Firebase as the backend and Stripe for the payments.",
       "image": "/images/qr-code.jpg",
       "techStack": ["React", "Material-UI", "CSS", "Firebase", "Stripe"],
-      "link": "https://housedownunder.com.au/booking/"
+      "web": "https://housedownunder.com.au/booking/",
+      "code": ""
     },
     {
       "name": "Marketplace",
       "description": "As a fun side project to learn React Native, I created a marketplace where users can post items for sale and search for things they want to buy. In this project, I didn't integrate a backend; the primary focus was on developing the user interface and gaining hands-on experience with React Native and Expo.",
       "image": "/images/marketplace.png",
-      "techStack": ["React Native", "Expo", "CSS"]
+      "techStack": ["React Native", "Expo", "CSS"],
+      "code": "https://github.com/dommich95/Marketplace-React-Native"
     },
 
     {
@@ -26,14 +29,16 @@
       "description": "A mini version of Trello where a user can have individual or group projects with a drag and drop function, live chat and shows which user is working on it or completed the task. This project was built with React and Firebase.",
       "image": "/images/taskr.png",
       "techStack": ["React", "CSS", "Firebase", "DnD"],
-      "link": "https://trackr-2c1d9.firebaseapp.com/dashboard"
+      "web": "https://trackr-2c1d9.firebaseapp.com/dashboard",
+      "code": "https://github.com/dommich95/trackr-React"
     },
     {
       "name": "Nourished",
       "description": "An app where a user can search for recipes with the ingredients they have at home. This was a group project with the stack of our choice - React and Firebase. We also used the API from Spoonacular for our application.",
       "image": "/images/nourished.png",
       "techStack": ["React", "CSS", "Firebase", "Bootstrap"],
-      "link": "https://nourished-development-32447.web.app/"
+      "web": "https://nourished-development-32447.web.app/",
+      "code": "https://github.com/dommich95/Nourished-React"
     }
   ]
 }
