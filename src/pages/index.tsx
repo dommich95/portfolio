@@ -61,7 +61,6 @@ export default function Page() {
             <Flex
               direction="column"
               justify="center"
-              align="center"
               px="4"
               style={{
                 height: "100%",
@@ -69,20 +68,13 @@ export default function Page() {
                 width: "100%",
               }}
             >
-              <Text mb="5" align="center" size="9" weight="bold">
-                Hey,
+              <Text mb="5" align="left" size="9" weight="bold">
+                Dominik Michel
               </Text>
-              <Text mb="5" align="center" size="9" weight="bold">
-                I&apos;m Dominik Michel
+              <Text mb="2" align="left" size="9" weight="bold">
+                I&apos;m a Frontend Developer
               </Text>
-              <Text mb="3" align="center" size="8" weight="bold">
-                and I&apos;m a
-              </Text>
-              <Text mb="2" align="center" size="9" weight="bold">
-                Frontend Developer
-              </Text>
-              <Text mb="5" align="center" size="9" weight="bold"></Text>
-              <Text align="center" size="8" weight="bold">
+              <Text align="right" size="8" weight="bold">
                 and I hope to please your eyes with what you see!
               </Text>
             </Flex>
