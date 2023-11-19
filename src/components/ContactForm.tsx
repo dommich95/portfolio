@@ -51,6 +51,7 @@ const ContactForm: React.FC = () => {
         gap="8"
         style={{
           width: "100%",
+          paddingBottom: "50px",
         }}
       >
         <Box
@@ -105,7 +106,6 @@ const ContactForm: React.FC = () => {
             </Box>
           )}
         </label>
-
         <Button
           style={{
             backgroundColor: "transparent",
