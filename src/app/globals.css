@@ -9,7 +9,3 @@ body {
   background-size: cover;
   overflow: hidden;
 }
-
-input::placeholder {
-  color: white;
-}

@@ -18,10 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body
-        style={{ backgroundImage: "/Images/background.png" }}
-        className={inter.className}
-      >
+      <body className={inter.className}>
         {children}
         <Analytics />
       </body>
