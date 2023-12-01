@@ -1,7 +1,6 @@
 import React from "react";
 import { Box, Flex, Text } from "@radix-ui/themes";
 import "@radix-ui/themes/styles.css";
-
 import Projects from "@/components/Projects";
 import Link from "next/link";
 import styled from "styled-components";
@@ -34,7 +33,11 @@ export default function Page() {
               Contact
             </Text>
           </StyledLink>
-          <StyledLink href={"cv.pdf"} target="_blank">
+          <StyledLink
+            href="/file/Dominik-Michel-CV.pdf"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
             <Text size={{ initial: "4", sm: "5" }} weight="medium">
               Resume
             </Text>
